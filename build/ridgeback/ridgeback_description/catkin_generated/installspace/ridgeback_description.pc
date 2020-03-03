@@ -1,0 +1,8 @@
+prefix=/home/paul/ros_workspaces/ridgeback_ws/install
+
+Name: ridgeback_description
+Description: Description of ridgeback_description
+Version: 0.2.2
+Cflags: 
+Libs: -L/home/paul/ros_workspaces/ridgeback_ws/install/lib 
+Requires: 

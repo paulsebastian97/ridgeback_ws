@@ -1,0 +1,8 @@
+prefix=/home/paul/ros_workspaces/ridgeback_ws/install
+
+Name: ridgeback_gazebo_plugins
+Description: Description of ridgeback_gazebo_plugins
+Version: 0.1.0
+Cflags: -I/home/paul/ros_workspaces/ridgeback_ws/install/include
+Libs: -L/home/paul/ros_workspaces/ridgeback_ws/install/lib 
+Requires: roscpp std_msgs geometry_msgs nav_msgs tf message_runtime

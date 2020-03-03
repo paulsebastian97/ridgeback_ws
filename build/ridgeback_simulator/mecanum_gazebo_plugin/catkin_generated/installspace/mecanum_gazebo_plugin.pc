@@ -1,0 +1,8 @@
+prefix=/home/paul/ros_workspaces/ridgeback_ws/install
+
+Name: mecanum_gazebo_plugin
+Description: Description of mecanum_gazebo_plugin
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/paul/ros_workspaces/ridgeback_ws/install/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/paul/ros_workspaces/ridgeback_ws/devel/setup.sh
