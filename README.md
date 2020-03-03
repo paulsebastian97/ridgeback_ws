@@ -1,9 +1,9 @@
 # ridgeback-ws
-A ROS Workspace to test the motion produced by different planners when applied on mecanum robot/holonomic robot using a ridgeback robot.
+A ROS Workspace to test the motion produced by different local planners when applied on mecanum robot/holonomic robot using a ridgeback robot.
 
 ## Purpose of this workspace
 
-To test the motion created by using different planners. And to understand which planner can be used and the advantages and 
+To test the motion created by using different local planners. And to understand which planner can be used and the advantages and 
 disadvantages of using a certain planner for holonomic robot. As per testing teb planner is suitable for mecanum robot/holonomic robot.
 
 
