@@ -31,7 +31,7 @@ disadvantages of using a certain planner for holonomic robot. As per testing teb
 
 
 
-# How to change planners for the ridgeback robot
+## How to change planners for the ridgeback robot
 
 
 -Uncomment the rosparam and param tag of the planner you want to choose in /home/paul/ros_workspaces/ridgeback_ws/src/ridgeback/ridgeback_navigation/launch/include/move_base_1.launch
@@ -47,7 +47,7 @@ disadvantages of using a certain planner for holonomic robot. As per testing teb
 
 
 
-# Eband planner
+## Eband planner
 
 -Eband planner is not suitable for holonomic robot because it doesn't move sidewards as it is, meaning it doesn't drift sidewards without changing direction.
 
@@ -56,7 +56,7 @@ disadvantages of using a certain planner for holonomic robot. As per testing teb
 
 
 
-# Teb planner
+## Teb planner
 
 -Teb planner is suitable for holonomic robot with slight changes/optimization in the teb parameters. In order to change the teb parameters we can change the parameters in -->/home/paul/ros_workspaces/ridgeback_ws/src/ridgeback/ridgeback_navigation/params/teb_local_planner_omni_params.yaml. The details of the parameters of the teb planner has been has been written as comments next to each parameter in the teb_local_planner_omni_params.yaml file.
 
@@ -68,12 +68,12 @@ disadvantages of using a certain planner for holonomic robot. As per testing teb
 
 
 
-# dwa planner
+## dwa planner
 
 -dwa planner is not suitable for holonomic robot as it doesn't drift sidewards like it should in a holonomic robot.
 
 
-# base planner
+## base planner
 
 -base planner is not suitable for holonomic robot as it doesn't drift sidewards like it should in a holonomic robot.
 
